@@ -46,3 +46,7 @@ You can then call build.sh and it will build the project.
 The build will create a bootstrap.zip that you can upload to AWS.
 
 Eventually this will be made easier with SAM deploy.
+
+### Restrictions
+
+Because AWS supports an older version of Rust, some crates are not available. You've been warned.
