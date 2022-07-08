@@ -38,4 +38,11 @@ The handler will be called with an event, just like it would in a NodeJS or Pyth
 
 Once the work is done, simply return the response, which will be forwarded to the API GW and sent back.
 
+### How to build
 
+As of now, you need to have an Amazon Linux 2 EC2 instance with Rust installed on it.
+You can then call build.sh and it will build the project.
+
+The build will create a bootstrap.zip that you can upload to AWS.
+
+Eventually this will be made easier with SAM deploy.
