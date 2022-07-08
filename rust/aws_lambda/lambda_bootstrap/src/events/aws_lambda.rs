@@ -2,6 +2,11 @@ extern crate minreq;
 use serde::{Serialize, Deserialize};
 use std::collections::HashMap;
 
+/**
+  * Here we have the definition for the API GW events only
+  * Eventually, we should support more events (S3 for example)
+  */ 
+
 #[allow(non_snake_case)]
 #[derive(Debug, Serialize, Deserialize)]
 pub struct LambdaEvent {
