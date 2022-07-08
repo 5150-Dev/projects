@@ -1,0 +1,117 @@
+START RequestId: a018c23f-954b-4efc-8910-3e58ca4d209d Version: $LATEST
+"AWS_LAMBDA_FUNCTION_VERSION": "$LATEST"
+"AWS_SESSION_TOKEN": "IQoJb3JpZ2luX2VjEOD//////////wEaCXVzLWVhc3QtMSJHMEUCIDVz4JkZ8Bq482WG6ZXRihKG30zONVgmOqBg8BgME4w5AiEArHntlfnJ0sYlu/SEH2QcSrLCOi4g6D6Z6lwYJ5CPeAUqkwIImf//////////ARADGgwxOTU3MjQwNzUyMzkiDNzOcPU/fwDKQcssmyrnAS4RdptxJNbSPKvhcTFO6YjCZ970t+IcDmCXp+64dtPapc3T1gITjQyZC7Sz9NHVhWp66twSoW2neRFIzxuljOQLj8gO7TlzYE68wjA1ssORdqK1WH9h3NEdl+/JZzy/3dq+WcEMhaAGFj72dDgGLHW9S8Dtjn6U6EdSLVMpfqKezGNTIocOSZ/NLnY745c/gl4hz9QbyK/0aEiBDIWu89UzamcEfKt/wHltBocNqVz68p09Zt8yNQ2FC8UKrzDoKOOFSFk+zd2o4nsA3nKvO5GYFoU/MCs+mGCPB2yiL2+o8CM+SmsYBTD97JyTBjqaAbwiQXo1qivYCu53kyocv5sG/jzH0+T8g5UK+zbDvBPyvc8S3m5mh/1mS/UBFIu90Fa8JuNCzwT94Mw7SIAcbqMZVolMf4Srdmd6EY+YHCRzEdQ+MMtZ+/O9PcdKc4UOjn5yFXFVQOWkU9JNgKbYgwZwXMgpBSTAop1BvKR5vZrVdwvhuwcc4tYW0cuk0oHRE5xcP1QMX8LsfBc="
+"LD_LIBRARY_PATH": "/lib64:/usr/lib64:/var/runtime:/var/runtime/lib:/var/task:/var/task/lib:/opt/lib"
+"LAMBDA_TASK_ROOT": "/var/task"
+"AWS_LAMBDA_LOG_GROUP_NAME": "/aws/lambda/rtest"
+"AWS_LAMBDA_RUNTIME_API": "127.0.0.1:9001"
+"AWS_LAMBDA_LOG_STREAM_NAME": "2022/04/26/[$LATEST]a28ff704f6b144cd9c732c36b7d62a76"
+"AWS_LAMBDA_FUNCTION_NAME": "rtest"
+"AWS_XRAY_DAEMON_ADDRESS": "169.254.79.129:2000"
+"PATH": "/usr/local/bin:/usr/bin/:/bin:/opt/bin"
+"AWS_DEFAULT_REGION": "us-east-1"
+"PWD": "/var/task"
+"AWS_SECRET_ACCESS_KEY": "LUwE4ILeYIClwtoyKltzqlwsb+xadjgHufpgLK/X"
+"LANG": "en_US.UTF-8"
+"LAMBDA_RUNTIME_DIR": "/var/runtime"
+"AWS_LAMBDA_INITIALIZATION_TYPE": "on-demand"
+"TZ": ":UTC"
+"AWS_REGION": "us-east-1"
+"AWS_ACCESS_KEY_ID": "ASIAS3EQQMDT22MPGUFC"
+"SHLVL": "1"
+"_AWS_XRAY_DAEMON_ADDRESS": "169.254.79.129"
+"_AWS_XRAY_DAEMON_PORT": "2000"
+"AWS_XRAY_CONTEXT_MISSING": "LOG_ERROR"
+"_HANDLER": "hello.handler"
+"AWS_LAMBDA_FUNCTION_MEMORY_SIZE": "128"
+"_": "./lambda"
+RESPONSE: 
+{
+    "resource": "/test",
+    "path": "/test",
+    "httpMethod": "GET",
+    "headers": {
+        "accept": "*/*",
+        "Host": "drqqhq6afe.execute-api.us-east-1.amazonaws.com",
+        "User-Agent": "curl/7.64.0",
+        "X-Amzn-Trace-Id": "Root=1-6267367c-2c2bc4d56fa0211e22b45609",
+        "X-Forwarded-For": "54.152.39.167",
+        "X-Forwarded-Port": "443",
+        "X-Forwarded-Proto": "https"
+    },
+    "multiValueHeaders": {
+        "accept": [
+            "*/*"
+        ],
+        "Host": [
+            "drqqhq6afe.execute-api.us-east-1.amazonaws.com"
+        ],
+        "User-Agent": [
+            "curl/7.64.0"
+        ],
+        "X-Amzn-Trace-Id": [
+            "Root=1-6267367c-2c2bc4d56fa0211e22b45609"
+        ],
+        "X-Forwarded-For": [
+            "54.152.39.167"
+        ],
+        "X-Forwarded-Port": [
+            "443"
+        ],
+        "X-Forwarded-Proto": [
+            "https"
+        ]
+    },
+    "queryStringParameters": null,
+    "multiValueQueryStringParameters": null,
+    "pathParameters": null,
+    "stageVariables": {
+        "POCVpcLink": "6g40ng",
+        "POCNlbUrl": "CC-POC-nlb-48defdfdcadfe477.elb.us-east-1.amazonaws.com"
+    },
+    "requestContext": {
+        "resourceId": "8navvx",
+        "resourcePath": "/test",
+        "httpMethod": "GET",
+        "extendedRequestId": "RKVzjFaeIAMFoBw=",
+        "requestTime": "26/Apr/2022:00:02:04 +0000",
+        "path": "/dev/test",
+        "accountId": "195724075239",
+        "protocol": "HTTP/1.1",
+        "stage": "dev",
+        "domainPrefix": "drqqhq6afe",
+        "requestTimeEpoch": 1650931324955,
+        "requestId": "356cb2a4-0cd9-48a0-9864-b137dc6fa9a7",
+        "identity": {
+            "cognitoIdentityPoolId": null,
+            "accountId": null,
+            "cognitoIdentityId": null,
+            "caller": null,
+            "sourceIp": "54.152.39.167",
+            "principalOrgId": null,
+            "accessKey": null,
+            "cognitoAuthenticationType": null,
+            "cognitoAuthenticationProvider": null,
+            "userArn": null,
+            "userAgent": "curl/7.64.0",
+            "user": null
+        },
+        "domainName": "drqqhq6afe.execute-api.us-east-1.amazonaws.com",
+        "apiId": "drqqhq6afe"
+    },
+    "body": null,
+    "isBase64Encoded": false
+}
+
+("lambda-runtime-invoked-function-arn", "arn:aws:lambda:us-east-1:195724075239:function:rtest")
+("lambda-runtime-aws-request-id", "a018c23f-954b-4efc-8910-3e58ca4d209d")
+("content-length", "1560")
+("content-type", "application/json")
+("lambda-runtime-deadline-ms", "1650931328263")
+("date", "Tue, 26 Apr 2022 00:02:05 GMT")
+("lambda-runtime-trace-id", "Root=1-6267367c-2c2bc4d56fa0211e22b45609;Parent=56c5469f4a0e3abb;Sampled=0")
+Event { Request_ID: "a018c23f-954b-4efc-8910-3e58ca4d209d", Host: "" }
+POST to http://127.0.0.1:9001/2018-06-01/runtime/invocation/a018c23f-954b-4efc-8910-3e58ca4d209d/response
+{
+    "status": "OK"
+}
